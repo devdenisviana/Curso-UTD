@@ -1,0 +1,5 @@
+//as funções de seta não são içadas, elas devem ser definidas antes de serem usadas
+//usar const é mais seguro que usar var, porque uma expressão de função é sempre um valor constante
+// vc so pode omitir a return e as chaves se a função for de instrução única, por isso pode ser um bom hábito mante-los sempre
+
+const x = (x, y) => {return x * y};

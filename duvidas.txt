@@ -1,0 +1,23 @@
+duvidas
+
+algoritmo mediaNotas
+
+	Pq usou let para a variavel indice e var para as variaveis notas e total
+	
+	veja mais exemplos de recursividade
+
+	veja exemplos de operador ternario
+
+	veja a aula do guanabara sobre git e github
+
+	veja git cheat sheet
+
+	veja git hub pages
+
+https://www.youtube.com/watch?v=Zwv9qRyVeU4&pp=ygULZ2l0IGRvIHplcm8%3D
+https://www.youtube.com/watch?v=pyM5QLS2h6M&t=886s&pp=ygULZ2l0IGRvIHplcm8%3D
+https://www.youtube.com/watch?v=UMhskLXJuq4
+
+https://www.youtube.com/watch?v=DqTITcMq68k&ab_channel=RafaellaBallerini
+https://www.youtube.com/watch?v=UBAX-13g8OM&ab_channel=RafaellaBallerini
+

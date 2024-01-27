@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.imagem-logo {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+.cabecalho {
+  width: 100vw;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height 100%;
+}

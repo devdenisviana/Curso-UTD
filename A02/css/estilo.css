@@ -1,0 +1,61 @@
+body {
+  height: 100%;
+  margin: 0px 5px;
+  color: aliceblue;
+  font-size: 1rem; /* medida padrao da fonte root do documento - em geral 16px*/
+  background-color: rgb(95, 165, 210);
+}
+
+/* Coloca as duas divs uma ao lado da outra ou seja, na mesma linha*/
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5px; /* 0px em cima e embaixo e 5px nos lados */
+}
+
+a {
+  color: aliceblue;
+}
+
+fieldset {
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.3); /* define a sombra de um objeto: espessura, espalhamento e cor */
+  background-color: rgba(40, 60, 125, 0.3);
+}
+
+form {
+  margin: 5px; /* espaço do elemento para fora*/
+  padding: 5px; /* espaço do elemento para dentro*/
+}
+
+form input {
+  width: 30%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+button {
+  color: aliceblue;
+  border-color: orange;
+  border-radius: 5px; /* Define o arredondamento da borda*/
+  background-color: orange;
+  width: 150px;
+  height: 25px;
+}
+
+/* para referenciar as divs vamos usar o # e nome da div*/
+#esquerda {
+  display: flex;
+  flex-direction: column;
+  width: 40vw; /* 40% do tamanho da janela*/
+}
+#direita {
+  display: flex;
+  flex-direction: column;
+  width: 60vw; /* 60% do tamanho da janela */
+}
+#logo {
+  width: 300px;
+  height: auto;
+}

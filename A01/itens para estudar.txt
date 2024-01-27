@@ -1,0 +1,17 @@
+formulario
+action
+label
+input
+placeholder
+legend
+fieldset
+option
+tbody
+tr
+td
+th
+thead
+
+CTRL + F2 seleciona todos os itens iguais ra trocar
+
+

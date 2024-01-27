@@ -1,0 +1,34 @@
+/* estilo da página principal*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(50, 50, 50, 1);
+}
+/* Regra por tag*/
+h1 {
+  color: yellow !important;
+}
+/* Regra por classe*/
+.titulo {
+  color: cornflowerblue !important;
+}
+/* regra por id*/
+#titulo {
+  color: chartreuse !important;
+  font-size: 1rem;
+}
+.caixa {
+  width: 50vw; /* define a largura do objeto de acordo com o tamanho da tela*/
+  min-width: 200px;
+  max-width: 500px;
+  height: 50vh; /* define a altura do objeto de acordo com o tamanho da tela*/
+  margin: 50px 30px 60px 100px; /* sentido horario, cima, direita, baixo, esquerda*/
+  padding: 30px 10px 40px 5px;
+  background-color: chocolate;
+}
+.caixa-verde {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+}
