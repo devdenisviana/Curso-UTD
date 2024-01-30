@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- Define a seção principal do conteúdo da página-->
+    <main>
+        <!-- Inicia um formulário HTML. o atributo action especifica para onde os dados do formulário serão enviados quando o formulário for submetido-->
+        <form action="">
+            <!-- Agrupa elementos do formulário em um conjunto lógico com uma borda ao redor.-->
+            <fieldset>
+                <!--Adiciona uma legenda ao conjunto do fieldset-->
+                <legend>Cadastro usuário</legend>
+
+                <!--Rótulo associado ao campo de entrada de texto para o nome. o atributo for estabele a associação com o id do campo de entrada correspondente-->
+                <label for="nome_form" >Nome:</label><br>
+                <!--Campo de entrada de texto para o nome do usuario. o id é usado para associar o rótulo (label) a este campo. O atributo required indica que o campo é obrigatório-->
+                <input id="nome_form" type="text" required><br>
+
+                <label for="idade_form">Idade: </label><br>
+                <input id="idade_form" type="number" required><br>
+
+                <!--parágrafo que indica a seção de escolha da linguagem de programação preferida-->
+                <p>Linguagem de programação preferida</p>
+
+                <!--Grupo de botões de rádio para a escolha da linguagem de programação. o atributo name agrupa os botoes de rádio permitindo que apenas um seja selecionado. cada botão tem um valor associado.-->
+                <label for=""><input type="radio" name="Linguagem" value="JavaScript">JavaScript</label>
+                <label for=""><input type="radio" name="Linguagem" value="Python">Python</label>
+                <label for=""><input type="radio" name="Linguagem" value="PHP">PHP</label>
+                <label for=""><input type="radio" name="Linguagem" value="Ruby">Ruby</label>
+
+                <p>Área de interesse</p>
+                <label for=""><input type="checkbox">FrontEnd</label>
+                <label for=""><input type="checkbox">Backend</label>
+                <label for=""><input type="checkbox">Banco de dados</label>
+                <label for=""><input type="checkbox">UX Design</label>
+                <br>
+
+                <!--botão de envio do formulário. quando clicado. os dados do formulário serão submetidos ao local especificado no atributo action-->
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
