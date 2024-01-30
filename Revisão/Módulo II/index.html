@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+
+    <!--A ordem de precedencia dos estilos é: inline, incorporado e por ultimo linkado-->
+    <!--Estilo incorporado-->
+    <!--Embora nao seja recomendado podemos utilizar o parâmetro (!important) para um estilo com menor precedencia para que ele assuma uma precedencia maior de estilo, veja um exemplo no color: crimson-->
+    <style>
+        h1{
+            color: crimson !important;
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <!--estilo inline, tem precedencia sobre o incorporado e sobre o estilo linkado-->
+        <h1 style="color: blue; font-size: 45px;">Aprendendo CSS</h1>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
