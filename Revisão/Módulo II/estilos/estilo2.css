@@ -1,0 +1,67 @@
+body{
+    height: 100vw;
+    margin 0px 5px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(95, 165, 210);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 0px, 5px;
+}
+
+a{
+    color: aliceblue;
+}
+
+button{
+    color: aliceblue;
+    border-color: rgb(0, 255, 76);
+    border-radius: 3px;
+    background-color: rgb(0, 4, 255);
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+fieldset{
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(40, 60, 125, 0.3);
+    
+}
+
+form{
+    margin: 5px;
+    padding: 5px;
+}
+
+form input{
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#erquerda{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 25vw;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}

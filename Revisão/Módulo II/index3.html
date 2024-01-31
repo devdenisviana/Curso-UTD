@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+    <!--Aqui vamos inserir o link para o arquivo separado de estilo css-->
+    <link rel="stylesheet" href="./estilos/estilo2.css">
+
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <div id="esquerda">
+            <h1>Aprendendo CSS - uso de estilo linkado</h1>
+            <!--Aqui é inserido um link que por hora esta inativo com o uso do #, mas quando funcionar irá abrir em uma nova aba devido o target _blank-->
+            <h2>Para mais detalhes acesse o <a href="#" target="_blank">link</a></h2>
+
+            <!--inserção de uma imagem com a logo da UTD-->
+            <img id="logo" src="./imagens/logo_utd.png" alt="Logo da UTD" width="200px" height="auto">
+
+            <!--Uso de uma lista não ordenada com disc (esse é o padrão. se vc nao colocar nada irá gerar com disc)-->
+            <h3>Lista com uso do disc - formato padrão do marcador</h3>
+            <ul style="list-style-type:disc">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!--Uso de uma lista não ordenada com circle-->
+            <h3>Lista com uso do circle</h3>
+            <ul style="list-style-type:circle">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!--Uso de uma lista não ordenada com square-->
+            <h3>Lista com uso do squase</h3>
+            <ul style="list-style-type:square">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!--Uso de uma lista ordenada-->
+            <h3>Uso de lista ordenada usando o reversed</h3>
+            <ol reversed>
+                <li>Bootstrap</li>
+                <li>SpringBoot</li>
+                <li>MySql</li>
+                <li>Insomnia</li>
+            </ol>
+
+            <!--Uso de uma lista ordenada com numeros-->
+            <h3>Uso de lista ordenada com numeros começando no 10</h3>
+            <ol start="10">
+                <li>Bootstrap</li>
+                <li>SpringBoot</li>
+                <li>MySql</li>
+                <li>Insomnia</li>
+            </ol>
+
+            <!--Uso de uma lista ordenada especificando o tipo de marcador. Pode ser 1 ou A ou a ou I ou i-->
+            <h3>Uso de lista ordenada começando com a letra A</h3>
+            <ol type="A">
+                <li>Bootstrap</li>
+                <li>SpringBoot</li>
+                <li>MySql</li>
+                <li>Insomnia</li>
+            </ol>
+        </div>
+        <div id="direita">
+            <form action="">
+                <!-- Agrupa elementos do formulário em um conjunto lógico com uma borda ao redor.-->
+                <fieldset>
+                    <!--Adiciona uma legenda ao conjunto do fieldset-->
+                    <legend>Cadastro usuário</legend>
+    
+                    <!--Rótulo associado ao campo de entrada de texto para o nome. o atributo for estabele a associação com o id do campo de entrada correspondente-->
+                    <label for="nome_form" >Nome:</label><br>
+                    <!--Campo de entrada de texto para o nome do usuario. o id é usado para associar o rótulo (label) a este campo. O atributo required indica que o campo é obrigatório-->
+                    <input id="nome_form" type="text" required><br>
+    
+                    <label for="idade_form">Idade: </label><br>
+                    <input id="idade_form" type="number" required><br>
+    
+                    <!--parágrafo que indica a seção de escolha da linguagem de programação preferida-->
+                    <p>Linguagem de programação preferida</p>
+    
+                    <!--Grupo de botões de rádio para a escolha da linguagem de programação. o atributo name agrupa os botoes de rádio permitindo que apenas um seja selecionado. cada botão tem um valor associado.-->
+                    <label for=""><input type="radio" name="Linguagem" value="JavaScript">JavaScript</label>
+                    <label for=""><input type="radio" name="Linguagem" value="Python">Python</label>
+                    <label for=""><input type="radio" name="Linguagem" value="PHP">PHP</label>
+                    <label for=""><input type="radio" name="Linguagem" value="Ruby">Ruby</label>
+    
+                    <p>Área de interesse</p>
+                    <label for=""><input type="checkbox">FrontEnd</label>
+                    <label for=""><input type="checkbox">Backend</label>
+                    <label for=""><input type="checkbox">Banco de dados</label>
+                    <label for=""><input type="checkbox">UX Design</label>
+                    <br>
+    
+                    <!--botão de envio do formulário. quando clicado. os dados do formulário serão submetidos ao local especificado no atributo action-->
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
