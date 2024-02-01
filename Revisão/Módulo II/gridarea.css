@@ -1,0 +1,72 @@
+.container{
+    width: 96vw;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    /* a repetição do nome de cada bloco (header por exemplo) diz ao css quantas colunas ou no caso de sidebar, quantas linhas serão ocupadas no layout de grade*/
+    grid-template-areas:'header header header'
+                        'sidebar contenti contenti'
+                        'sidebar contentii contentiii'
+                        'footer footer footer'
+}
+
+
+.header{
+    background-color: orangered;
+    grid-area: header;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sidebar{
+    background-color: blueviolet;
+    grid-area: sidebar;font-size: 40px;
+    font-weight: 700;
+}
+
+.contenti{
+    background-color: crimson;
+    grid-area: contenti;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contentii{
+    background-color: cadetblue;
+    grid-area: contentii;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contentiii{
+    background-color: darkorchid;
+    grid-area: contentiii;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: green;
+    grid-area: footer;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: black;
+    }
+
+    .container{
+        width: 96vw;
+        height: 100vh;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:'header'
+                            'sidebar'
+                            'contenti'
+                            'contentii'
+                            'contentiii'
+                            'footer'
+    }   
+}
