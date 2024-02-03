@@ -1,0 +1,64 @@
+.container{
+    width: 95vw;
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    /* a repetição do nome de cada bloco (header por exemplo) diz ao css quantas colunas ou no caso de sidebar, quantas linhas serão ocupadas no layout de grade*/
+    grid-template-areas: 
+    'header header header header'
+    'div temp imc signo'
+    'redes noticias noticias noticias'
+}
+
+.header{
+    background-color: cyan;
+    grid-area: header;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.div{
+    background-color: blueviolet;
+    grid-area: div;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.temp{
+    background-color: brown;    
+    grid-area: temp;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.imc{
+    background-color: chartreuse;
+    grid-area: imc;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.signo{
+    background-color: chocolate;
+    grid-area: signo;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.redes{
+    background-color: violet;
+    grid-area: redes;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.noticias{
+    background-color: tomato;
+    grid-area: noticias;
+    font-size: 40px;
+    font-weight: 700;
+}
