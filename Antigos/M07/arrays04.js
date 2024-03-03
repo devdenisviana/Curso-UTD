@@ -13,9 +13,6 @@ lista[5] = "peixe";    // Adiciona "peixe" na posição 5 do array.
 // Adiciona o elemento "uva" ao final do array "lista".
 lista.push("uva");
 
-// Remove o último elemento do array "lista".
-lista.pop();
-
 // Adiciona o elemento "aveia" ao início do array "lista".
 lista.unshift("aveia");
 
