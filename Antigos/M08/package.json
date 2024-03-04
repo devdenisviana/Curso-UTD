@@ -1,5 +1,5 @@
 {
-  "name": "M08",
+  "name": "m08",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,5 +9,12 @@
     "express": "^4.18.3",
     "mysql2": "^3.9.2",
     "sequelize": "^6.37.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "description": ""
 }

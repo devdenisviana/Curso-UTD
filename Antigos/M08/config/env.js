@@ -6,3 +6,5 @@ const env = {
     host: 'localhost', // Host do banco de dados
     dialect: 'mysql', // Dialeto do banco de dados (no caso, MySQL)
 };
+
+module.exports = env;
